@@ -8,7 +8,7 @@
     <modules>
         <module>se</module>
         <module>api</module>
-        <module>TwinkleCE</module>
+        <module>ce</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
