@@ -1,0 +1,6 @@
+#!/bin/bash
+cd $OPENSHIFT_REPO_DIR
+mvn -Dmaven.repo.local=/tmp/m2/temprepo clean install
+cd tools
+./upload_jars.sh
+cd $OPENSHIFT_REPO_DIR
