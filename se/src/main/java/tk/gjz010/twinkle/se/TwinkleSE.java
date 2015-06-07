@@ -23,7 +23,7 @@ public TwinkleSE(InetSocketAddress addr){
         String webDir = this.getClass().getClassLoader().getResource("static").toExternalForm();
 ResourceHandler res = new ResourceHandler();
 res.setDirectoriesListed(false);
-res.setWelcomeFiles(new String[]{ "index.html" });
+res.setWelcomeFiles(new String[]{ "index.html" ,"welcome.html"});
 res.setResourceBase(webDir);
        HandlerList handlers = new HandlerList();
         handlers.setHandlers(new Handler[] { res, new DefaultHandler() });
